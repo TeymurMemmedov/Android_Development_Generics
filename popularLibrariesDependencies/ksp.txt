@@ -1,0 +1,7 @@
+Version can be changed based on kotlin version. Check this https://github.com/google/ksp/releases
+
+build.gradle : project -> plugins
+id("com.google.devtools.ksp") version "1.9.22-1.0.17" apply false
+
+build.gradle : app -> plugins
+id("com.google.devtools.ksp")
